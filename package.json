@@ -1,0 +1,16 @@
+{
+  "name": "ts_college_system",
+  "version": "1.0.0",
+  "description": "This is the Repository for my CI CD Build Pipeline for the TypeScript College Enrollment System",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint . --ext .ts",
+    "format": "prettier --write \"src/**/*.ts\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
